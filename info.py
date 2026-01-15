@@ -30,13 +30,13 @@ DB_NAME = environ.get("DATABASE_NAME", "testing")
 # =========================================================
 ADMINS = int(environ.get("ADMINS", "0"))
 
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "0"))
-PREMIUM_LOGS = int(environ.get("PREMIUM_LOGS", "0"))
-VERIFIED_LOG = int(environ.get("VERIFIED_LOG", "0"))
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1003665514936"))
+PREMIUM_LOGS = int(environ.get("PREMIUM_LOGS", "-1003623896580"))
+VERIFIED_LOG = int(environ.get("VERIFIED_LOG", "-1003465466340"))
 
-POST_CHANNEL = int(environ.get("POST_CHANNEL", "0"))
-VIDEO_CHANNEL = int(environ.get("VIDEO_CHANNEL", "0"))
-BRAZZER_CHANNEL = int(environ.get("BRAZZER_CHANNEL", "0"))
+POST_CHANNEL = int(environ.get("POST_CHANNEL", "-1003372475958"))
+VIDEO_CHANNEL = int(environ.get("VIDEO_CHANNEL", "-1003698216926"))
+BRAZZER_CHANNEL = int(environ.get("BRAZZER_CHANNEL", "-1003618536725"))
 
 # Auth channels list
 auth_channel_str = environ.get("AUTH_CHANNEL", "")
