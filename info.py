@@ -46,7 +46,7 @@ AUTH_CHANNEL = [int(x) for x in auth_channel_str.split() if x.strip().lstrip("-"
 # ⚙️ FEATURES & TOGGLES  (FIXED)
 # =========================================================
 FSUB = str_to_bool(environ.get("FSUB"), True)
-IS_VERIFY = str_to_bool(environ.get("IS_VERIFY"), True)
+IS_VERIFY = str_to_bool(environ.get("IS_VERIFY"), False)
 POST_SHORTLINK = str_to_bool(environ.get("POST_SHORTLINK"), False)
 SEND_POST = str_to_bool(environ.get("SEND_POST"), False)
 
@@ -60,8 +60,8 @@ PREMIUM_DAILY_LIMIT = int(environ.get("PREMIUM_DAILY_LIMIT", "50"))
 # =========================================================
 # 🔗 SHORTLINK & VERIFICATION
 # =========================================================
-SHORTLINK_URL = environ.get("SHORTLINK_URL", "https://vplink.in")
-SHORTLINK_API = environ.get("SHORTLINK_API", "643cf7208bfdc009d2e1f953905840a9619d48ca")
+SHORTLINK_URL = environ.get("SHORTLINK_URL", "")
+SHORTLINK_API = environ.get("SHORTLINK_API", "")
 POST_SHORTLINK_URL = environ.get("POST_SHORTLINK_URL", "")
 POST_SHORTLINK_API = environ.get("POST_SHORTLINK_API", "")
 VERIFY_EXPIRE = int(environ.get("VERIFY_EXPIRE", "3600"))
