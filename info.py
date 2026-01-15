@@ -76,7 +76,7 @@ QR_CODE_IMAGE = environ.get("QR_CODE_IMAGE", "")
 # =========================================================
 # 🖼️ IMAGES
 # =========================================================
-START_PIC = environ.get("START_PIC", "")
+START_PIC = environ.get("START_PIC", "https://i.ibb.co/B5fFjwJv/photo-2026-01-15-17-47-35-7595646484700200976.jpg")
 AUTH_PICS = environ.get("AUTH_PICS", "")
 VERIFY_IMG = environ.get("VERIFY_IMG", "")
 NO_IMG = environ.get("NO_IMG", "")
