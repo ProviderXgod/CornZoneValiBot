@@ -30,8 +30,8 @@ class script(object):
     ABOUT_TXT = """╔════❰ {} ❱══════❍
 ║╭━━━━━━━━━━━━━━━━━━➣
 ║┣⪼🤖 𝖬𝗒 𝖭𝖺𝗆𝖾 : {}
-║┣⪼👦 𝖣𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝗋 : <a href='https://t.me/AV_OWNER_BOT'>𝖠𝗆𝖺𝗇 𝖣𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝗋</a>
-║┣⪼❣️ 𝖴𝗉𝖽𝖺𝗍𝖾 : <a href='https://t.me/PronWaliZone'>𝖯𝖶𝖹𝗈𝗇𝖾</a>
+║┣⪼👦 𝖣𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝗋 : <a href='https://t.me/ownergodupdate'>GODZ 𝖣𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝗋</a>
+║┣⪼❣️ 𝖴𝗉𝖽𝖺𝗍𝖾 : <a href='https://t.me/ownergodupdate'>BYZone</a>
 ║┣⪼📡 𝖧𝗈𝗌𝗍𝖾𝖽 𝖮𝗇 : 𝖪𝗈𝗒𝖾𝖻 
 ║┣⪼🗣️ 𝖫𝖺𝗇𝗀𝗎𝖺𝗀𝖾 : 𝖯𝗒𝗍𝗁𝗈𝗇 
 ║┣⪼📚 𝖫𝗂𝖻𝗋𝖺𝗋𝗒 : 𝖯𝗒𝗋𝗈𝗀𝗋𝖺𝗆
